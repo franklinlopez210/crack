@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Univercidad Nacional Mayor de San Marcos,Univercidad del Peru,Decana de
+        America
+    </title>
+    <meta charset="utf-8" />
+    <meta name="Description" content="pagina web hecha con css" />
+    <meta name="Keywords" content="html,css,pagina web" />
+    <meta name="author" content="carlos alonso" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Formulario de contacto</title>
+    <style>
+        * {
+            margin-top: 5px;
+            margin-left: 5px;
+            background-color: rgb(165, 41, 41);
+        }
+
+
+        .formulario {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        .formulario div {
+            padding-top: 25px;
+            width: 100%;
+            width: 550px;
+            height: 665px;
+            background-color: rgb(51, 4, 4);
+            font-size: 20px;
+            line-height: 30px;
+            border-radius: 30px;
+        }
+
+        .formulario h1 {
+            display: block;
+            margin-top: 20px;
+            letter-spacing: 1px;
+        }
+
+        .formulario div form {
+            border: 2px solid white;
+            border-radius: 30px;
+            display: block;
+            padding-top: 10px;
+            margin: 0 auto;
+            width: 500px;
+            height: 625px;
+            color: white;
+            font-family: Arial;
+        }
+
+
+        .formulario div input,
+        textarea {
+            width: 388px;
+            height: 30px;
+            background: white;
+            border: 2px solid white;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 15px;
+            border-radius: 8px;
+            color: black;
+        }
+
+        .formulario div textarea {
+            height: 155px;
+        }
+
+        .formulario div #submit {
+            width: 85px;
+            height: 35px;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+
+        .formulario h2 {
+            text-align: center;
+            color: white;
+            line-height: 30px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+
+        .formulario h1 {
+            text-align: left;
+            color: white;
+            line-height: 30px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="formulario">
+        <section>
+            <div>
+                <form action="contactenos.php" method="post">
+                    <h2>Pongase en Contacto con Nosotros</h2>
+                    <h1>Nombre:</h1>
+                    <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+                    <h1>Email:</h1>
+                    <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+                    <h1>Mensaje:</h1>
+                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+                    <input id="submit" type="submit" name="submit" value="Enviar" />
+
+                </form>
+        </section>
+    </div>
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<!--Pagina web proyecto final-->
+<html>
+
+<head>
+    <title>Univercidad AEP ZAMORANO </title>
+    <meta charset="utf-8">
+    <meta name="Description" content="pagina web hecha con css">
+    <meta name="Keywords" content="html,css,pagina web">
+    <meta name="author" content="frankin lopez">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        * {
+            margin-top: 5px;
+            margin-left: 5px;
+            background-color: rgb(165, 41, 41);
+        }
+
+
+        .Album {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .Album div {
+            width: 100%;
+            padding-top: 20px;
+            background-color: rgb(72, 6, 6);
+            border: 1px solid white;
+            line-height: 70%;
+            border-radius: 8px;
+            padding: 20px;
+
+        }
+
+        .Album h2 {
+            width: 100%;
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .biblioteca {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .biblioteca h1 {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 25px;
+            text-align: left;
+         line-height: 30px;
+        }
+
+        .biblioteca div {
+            width: 100%;
+            background-color: rgb(72, 6, 6);
+            border: 1px solid white;
+            line-height: 70%;
+            border-radius: 8px;
+            padding: 20px;
+
+        }
+
+        .biblioteca div p {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 30px;
+        }
+
+
+        .biblioteca div img {
+            width: 65%;
+            justify-content: center;
+            height: auto;
+            border: 2px solid white;
+        }
+
+        .biblioteca div img:hover {
+            box-shadow: 0 0 4px 2px rgb(221, 80, 80);
+            border: 2px;
+        }
+
+        .biblioteca div ul {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            text-align: left;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .biblioteca div li {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            text-align: left;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .menu div {
+            width: 100%;
+            width: 200px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 8px;
+            border: 1px solid white;
+            color: white;
+            background-color: rgb(51, 4, 4);
+            line-height: 70px;
+        }
+
+        .menu div a {
+            color: white;
+            background-color: rgb(51, 4, 4);
+            font-size: 20px;
+            text-decoration: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Album">
+        <div>
+            <h2>Album de Actividades de la Vida Estudiantil</h2>
+        </div>
+    </div>
+    <div class="biblioteca">
+
+        <div>
+            <img src="../proyectofinal/imagenes/Acti2.jpg"></a>
+
+
+
+            <p>ZAMORANO te ofrece un programa académico de alta calidad, bajo un sistema de formación integral diseñado para alcanzar el éxito en tu vida profesional. 
+                Desarrolla lideres basado en programas rigurosos, excelencia académica y aprender haciendo. En cada una de nuestras carreras, vivirás experiencias educativas que marcan tu vida:
+                 la práctica profesional y las giras educativas. Cada año, más de 20 países reciben a nuestros estudiantes para las pasantías o prácticas profesionales, en universidades, 
+                 empresas multinacionales u organizaciones. Las giras educativas son experiencias en Honduras y otros países de América, en empresas y proyectos.
+            </p>
+        </div>
+
+        <div>
+            <h1>Agroindustria Alimentaria</h1>
+            <img src="../proyectofinal/imagenes/AgroAli.png"></a>
+
+
+            <p>Esta Carrera fundamenta la enseñanza en la aplicación del trabajo práctico, 
+                combinado con la ciencia y la investigación de nuevas tecnologías en la agroindustria alimentaria. Integra la formación en ciencias básicas y agropecuarias,
+                 tecnología e ingeniería de alimentos, ingeniería industrial, gestión y administración de procesos para ser aplicados en el procesamiento, comercialización
+                  y adición de valor de los productos alimenticios y los aspectos gerenciales afines.
+            </p>
+        </div>
+        <div>
+            <h1>Ciencia y Producción Agropecuaria</h1>
+            <img src="../proyectofinal/imagenes/ProAgro.jpg"></a>
+
+
+            <p>
+                Los gobiernos de Latinoamérica y los organismos internacionales han reconceptualizado su modelo de desarrollo basado en una rápida industrialización para la exportación.
+                 Se ha visto la necesidad de volver, en la mayoría de los casos, al papel preponderante de la agricultura, con el objeto de garantizar la seguridad alimentaria, 
+                 desarrollar una sólida industria nacional e incrementar el intercambio mercantil dentro de la región. Los estándares internacionales buscan mejorar la calidad y dar 
+                 mayor protección al ambiente en todas las áreas de la producción agrícola.
+
+                 El graduado de Ingeniería Agronómica es capaz de conducir y administrar los procesos productivos y de mejorar la eficiencia biológica y económica de la producción, 
+                 en muchos entornos y condiciones ambientales y ecológicas, mediante la generación y adaptación del conocimiento científico tecnológico.
+            </p>
+        </div>
+        <div>
+            <h1>Administración de Agronegocios</h1>
+            <img src="../proyectofinal/imagenes/Agro.jpg"></a>
+
+
+            <p>Las necesidades de los países que atiende Zamorano, exigen que nuestros profesionales den un nuevo dinamismo, especialmente a las empresas del sector agrario,
+                 para el despegue de las economías locales.</h1>
+            <ul>
+                <li>Un graduado de la Carrera de Administración de Agronegocios es capaz de administrar los recursos humanos, 
+                    financieros y productivos identificando las oportunidades que brindan los mercados locales e internacionales</li>
+                <li>Los graduados de esta Carrera pueden trabajar en cualquier campo de la administración en cualquier tipo de empresa, 
+                    pero tiene una especial fortaleza en la aplicación práctica de estos conceptos a negocios relacionados con los insumos agrarios
+                    , producción, servicios al agro, procesamiento de alimentos, comercialización y exportación de los mismos</li>
+            </ul>
+            <h1> Ingeniería de Ambiente y Desarrollo</h1>
+            <img src="../proyectofinal/imagenes/AmbDes.jpg"></a>
+
+
+            <p>Los desafíos más graves del mundo son la degradación ambiental y la pobreza. Temas como la escasez de agua, la gobernabilidad local, 
+                la reducción de la pobreza y el manejo ambiental aún son prioridades.
+
+                Los graduados de la Carrera de Ambiente y Desarrollo son profesionales con capacidades y habilidades que generan competencias para concebir, diseñar, 
+                ejecutar y evaluar acciones tendientes a la comprensión, la conservación y el manejo productivo de los recursos naturales y el ambiente para el desarrollo socioeconómico</p>
+
+        
+    <div class="menu">
+        <div> <a href="index.html">Menu Principal</a></div>
+
+
+    </div>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<!--Pagina web proyecto final-->
+<html>
+
+<head>
+    <title>Universidad AEP ZAMORANO </title>
+    <meta charset="utf-8">
+    <meta name="Description" content="pagina web hecha con css">
+    <meta name="Keywords" content="html,css,pagina web">
+    <meta name="author" content="frankin lopez">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        * {
+            margin-top: 5px;
+            margin-left: 5px;
+            background-color: rgb(165, 41, 41);
+        }
+
+        .Logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .Logo div img {
+            width: 100%;
+            opacity: 0.9;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 8px;
+            padding: 5px;
+
+
+        }
+
+        .Logo div a {
+            max-width: 30%;
+            height: auto;
+        }
+
+
+
+        .Menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .Menu div {
+            width: 100%;
+            opacity: 0.9;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 5px;
+            color: white;
+            background-color: rgb(51, 4, 4);
+            line-height: 70px;
+
+
+        }
+
+        .Menu div a {
+            width: 100%;
+            color: white;
+            background-color: rgb(51, 4, 4);
+            font-size: 15px;
+            text-decoration: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            margin:70px;
+
+
+        }
+
+        .background {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .background div {
+            width: 100%;
+            padding-bottom: 30px;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 8px;
+            padding: 5px;
+        }
+
+        .background div img {
+            width: 99%;
+            border: 2px solid white;
+            padding-bottom: 30px;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 8px;
+            padding: 5px;
+
+        }
+
+        .background div a {
+            max-width: 30%;
+            height: auto;
+
+        }
+
+        .historia {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+
+        .historia div {
+            background-color: rgb(72, 6, 6);
+            width:100%;
+            height: auto;
+            border: 2px solid white;
+            text-align: center;
+            border-radius: 8px;
+
+        }
+
+        .historia p {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 30px;
+        }
+
+        .piedepagina {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+
+        .piedepagina div {
+            background-color: rgb(51, 4, 4);
+            width: 100%;
+            height: auto;
+            padding-bottom: 30px;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 8px;
+            padding: 5px;
+        }
+
+        .piedepagina h1 {
+            background-color: rgb(51, 4, 4);
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Logo">
+        <div><img src="../proyectofinal/imagenes/zamarona.png"></a></div>
+    </div>
+
+
+
+    <div class="Menu">
+        <div>
+            <a href="plandeestudio.html">PLAN DE ESTUDIO</a>
+            <a href="informacioncorporativa.html">INFORMACIÓN CORPORATIVA</a>
+            <a href="galeriaactividades.html">GALERIA DE ACTIVIDADES</a>
+            <a href="contactenos.html">CONTACTENOS</a>
+        </div>
+    </div>
+    <div class="background">
+        <div> <img src="../proyectofinal/imagenes/banner.jpg"></a>
+        </div>
+
+    </div>
+    <div class="historia">
+        <div>
+            <p>
+                La Universidad Zamorano, fue fundada en 1941 por Samuel Zemurray (1877-1961), un estadounidense nacido en Rusia, quien fue presidente de la United Fruit Company. El Sr. Zemurray se estableció en la región para explotar la producción bananera de la misma, 
+                y para ello era necesario contar con un centro educativo con una alta calidad en la enseñanza en agricultura, el cual sirviera como centro de desarrollo, practica y experimentación de nuevos descubrimientos en esta rama, encaminados a mejorar la producción y por ende la rentabilidad de sus monopolios bananeros. 
+                Este centro se dedicó también a la formación de varios jóvenes de toda la región para que estos posteriormente pasasen a ser parte de la planta laboral de su negocios, especialmente en lo referente a la explotación bananera y para llevar a cabo el sueño, reclutó al Doctor Wilson Popenoe,
+                 un conocido botánico y horticultor de la época; que tenía una amplia experiencia en la región, y que organizó el famoso Jardín Botánico Lancetilla en Honduras.
+
+             
+            </p>
+
+            <p>   
+                La construcción de la escuela se inició a finales de 1941. El Dr. Popenoe se convirtió en el director fundador de la nueva institución y duró en el puesto hasta 1957.
+                 Desde entonces, la pequeña escuela ha crecido hasta convertirse en lo que es hoy un centro académico al servicio de las Américas.
+            </p>
+        </div>
+
+    </div>
+    <div class="piedepagina">
+        <div>
+            <h1>
+                COPYRIGHT 2021,CREADO POR FRANKLIN LOPEZ-TRABAJO ESTUDIANTIL
+            </h1>
+        </div>
+
+
+    </div>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<!--INFORMACION CORPORATIVA-->
+<html>
+
+<head>
+    <title>Informacion Corporativa</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="pagina web hecha con css">
+    <meta name="Keywords" content="html,css,pagina web">
+    <meta name="author" content="frankin lopez">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        * {
+            margin-top: 5px;
+            margin-left: 5px;
+            background-color: rgb(123, 29, 29);
+        }
+       
+        .logo2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .logo2 div img {
+            width: 200px;
+            background-size: auto;
+            opacity: 0.9;
+            text-align: left;
+            font-size: 30px;
+            border-radius: 8px;
+            padding: 5px;
+           
+
+        }
+
+        .logo2 div a {
+            max-width: 30%;
+            height: auto;
+        }
+
+       
+
+        .titulo {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .titulo div {
+            margin-top: 35px;
+            background-color: rgb(72, 6, 6);
+            width: 100%;
+            border: 1px solid white;
+            line-height: 70%;
+            border-radius: 8px;
+            text-align: justify;
+            padding: 20px;
+            flex: 2 100px;
+        }
+
+        .titulo div h1 {
+            
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            line-height: 30px;
+            
+        }
+
+        .titulo div p {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 30px;
+        }
+
+        .parrafo {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .parrafo div {
+            padding-top: 20px;
+            background-color: rgb(72, 6, 6);
+            width: 100%;
+            border: 1px solid white;
+            line-height: 70%;
+            border-radius: 8px;
+            text-align: justify;
+            padding: 20px;
+            flex: 2 100px;
+        }
+
+        .parrafo div h1 {
+             background-color: rgb(72, 6, 6);
+            color: white;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .parrafo div p {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 30px;
+        }
+
+        .parrafo div ol {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 30px;
+            text-align: justify;
+            line-height: 30px;
+        }
+        .parrafo div li {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 26px;
+            text-align: justify;
+            line-height: 30px;
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .menu div {
+            width: 100%;
+            width: 200px;
+            opacity: 0.9;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 5px;
+            color: white;
+            background-color: rgb(51, 4, 4);
+            line-height: 70px;
+        }
+        .menu div a{
+            color: white;
+            background-color: rgb(51, 4, 4);
+            font-size: 20px;
+            text-decoration: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            margin: 20px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo2">
+        <div>
+            <img src="../proyectofinal/imagenes/log3.png"></a>
+        </div>
+    </div>
+    <div class="titulo">
+        <div>
+            <h1>UAP Zamorano</h1>
+            <P>
+                ZAMORANO te ofrece un programa académico de alta calidad, bajo un sistema de formación integral diseñado para alcanzar el éxito en tu vida profesional.
+                 Desarrolla lideres basado en programas rigurosos, excelencia académica y aprender haciendo. En cada una de nuestras carreras, vivirás experiencias educativas que marcan tu vida: 
+                 la práctica profesional y las giras educativas. Cada año, más de 20 países reciben a nuestros estudiantes para las pasantías o prácticas profesionales, en universidades, empresas multinacionales u organizaciones. 
+                 Las giras educativas son experiencias en Honduras y otros países de América, en empresas y proyectos.
+            </P>
+        </div>
+
+    </br>
+
+    </div>
+    <div class="parrafo">
+
+
+        <div>
+            <h1>Nuestra Mision</h1></br>
+            <p>
+                ZAMORANO desarrolla líderes basado en programas rigurosos, excelencia académica, aprender haciendo, desarrollo de valores y carácter,
+                 contribuyendo al progreso socioeconómico.
+            </p>
+        </div>
+
+        <div>
+            <h1>Nuestra Visión </h1></br>
+            <p>
+                ZAMORANO continuará siendo una universidad panamericana líder, reconocida por la calidad e impacto de sus graduados, su educación, 
+                investigación aplicada y proyección en el desarrollo de una agricultura sostenible, la agroindustria y los recursos naturales.
+            </p>
+
+        </div>
+
+        <div>
+            <h1>Nuestros Valores</h1></br>
+            </br>
+            <ol>
+                <li>Solidaridad</li>
+                <li>Responsabilidad</li>
+                <li>Integridad</li>
+                <li>Dignidad</li>
+                <li>Tolerancia</li>
+                <li>Libertad</li>
+            </ol>
+        </div>
+    </div>
+    <div class="menu">
+        <div>  <a href="index.html">Menu Principal</a></div>
+        
+      
+    </div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<!--Pagina web proyecto final-->
+<html>
+
+<head>
+    <title>Univercidad Nacional Mayor de San Marcos,Univercidad del Peru,Decana de America </title>
+    <meta charset="utf-8">
+    <meta name="Description" content="pagina web hecha con css">
+    <meta name="Keywords" content="html,css,pagina web">
+    <meta name="author" content="carlos alonso">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        * {
+            margin-top: 5px;
+            margin-left: 5px;
+            background-color: rgb(165, 41, 41);
+        }
+
+        .Logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .Logo div img {
+            width: 100%;
+            opacity: 0.9;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 8px;
+            padding: 5px;
+
+
+        }
+
+        .Logo div a {
+            max-width: 30%;
+            height: auto;
+        }
+
+
+
+        .Menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .Menu div {
+            width: 100%;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 8px;
+            border: 1px solid white;
+            color: white;
+            background-color: rgb(51, 4, 4);
+            line-height: 80px;
+
+
+        }
+
+        .Menu div a {
+            width: 100%;
+            color: white;
+           text-align: justify;
+            background-color: rgb(51, 4, 4);
+            font-size: 20px;
+            text-decoration: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            margin:70px;
+
+
+        }
+
+        .background {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .background div {
+            width: 100%;
+            padding-bottom: 30px;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 8px;
+            padding: 5px;
+            padding-right:26px;
+        }
+
+        .background div img {
+            width: 100%;
+            border: 2px solid white;
+            padding-bottom: 30px;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 8px;
+            padding: 5px;
+
+        }
+
+        .background div a {
+            max-width: 30%;
+            height: auto;
+
+        }
+
+        .historia {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+
+        .historia div {
+            background-color: rgb(72, 6, 6);
+            width:100%;
+            height: auto;
+            border: 2px solid white;
+            text-align: center;
+            border-radius: 8px;
+
+        }
+
+        .historia p {
+            background-color: rgb(72, 6, 6);
+            color: white;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 30px;
+            padding-right:5px;
+        }
+
+        .piedepagina {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+
+        .piedepagina div {
+            background-color: rgb(51, 4, 4);
+            width: 100%;
+            height: auto;
+            padding-bottom: 30px;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 8px;
+            padding: 5px;
+        }
+
+        .piedepagina h1 {
+            background-color: rgb(51, 4, 4);
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Logo">
+        <div><img src="../proyectofinal/imagenes/logo.png"></a></div>
+    </div>
+
+
+
+    <div class="Menu">
+        <div>
+            <a href="plandeestudio.html">PLAN DE ESTUDIO</a>
+            <a href="informacioncorporativa.html">INFORMACIÓN CORPORATIVA</a>
+            <a href="galeriaactividades.html">GALERIA DE ACTIVIDADES</a>
+            <a href="contactenos.html">CONTACTENOS</a>
+        </div>
+    </div>
+    <div class="background">
+        <div> <img src="../proyectofinal/imagenes/banner.jpg"></a>
+        </div>
+
+    </div>
+    <div class="historia">
+        <div>
+            <p>
+                El origen de la Universidad Nacional Mayor de San Marcos, es también el origen de la educación superior
+                en el Perú y América, el cual se remonta a la creación de los Estudios Generales que funcionaron en los
+                claustros del Convento del Rosario de la orden de los predicadores, actual Convento de Santo Domingo.
+
+             
+            </p>
+
+            <p>   La creación de los Estudios Generales o Universidad de Lima, respondió al objetivo de mantener y
+                garantizar el orden colonial, y para desarrollar el conocimiento. De allí la preocupación de la Iglesia
+                y la Corona española por su funcionamiento, pues de ello dependía la formación de nuevos dirigentes para
+                la administración colonial y para el clero católico.</p>
+        </div>
+
+    </div>
+    <div class="piedepagina">
+        <div>
+            <h1>
+                COPYRIGHT 2021,CREADO POR CARLOS ALONSO-TRABAJO ESTUDIANTIL
+            </h1>
+        </div>
+
+
+    </div>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>
